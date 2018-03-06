@@ -9,3 +9,4 @@
 ## Grading
 * Submitting the screenshot will get all points. 
 * Late works only get 80%. No later than 1 week.
+![](figs/datacamp.png)
