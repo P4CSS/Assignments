@@ -1,4 +1,6 @@
-## Learning with datacamp
+# Learning with datacamp
+
+## Topic
 * For training you and verify you can learn by yourself, please Finishing the Datacamp free module: [Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r)
 
 ## Submission
