@@ -1,5 +1,5 @@
 # Writing Code with RMD
-* Review the paid maternity leave case in the course.
+* Review the paid maternity leave case in the course. Finish the remaining four levels, 4, 3, 2, 1. (It does not matter if you find that some countries seem to be classified into different categories when ompared with the original news). 
 * Watch the youtube video [R0 1 Rmarkdown how to](https://youtu.be/xVXUZShYfEI) to learn how to write code with RMD.
 
 # Submitting
