@@ -1,5 +1,6 @@
 # Detecting significant terms in docs
-* Collect docs which can be divided into two or three meaningful categories. 
+* Collect docs which can be divided into two or three meaningful categories.
+* Discribe term features and document features as possible.
 * Compare the word usage between categories.
 * Calculate tf_idf to detect significant words of each document or category.
   * Do high tf_idf terms help to understand features of differene categories?
