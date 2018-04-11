@@ -1,5 +1,5 @@
 ---
-title: "2_hw_AQX"
+title: "04_AQX"
 output: 
   html_document:
     keep_md: true
@@ -198,20 +198,15 @@ aqxdata %>% names()
 
 # Plot a map according to http://taqm.epa.gov.tw/taqm/tw/b0201.aspx
 
-## Convert character vars to numeric
+## Convert character variables to numeric variables
 
 ```r
-aqxdata$PM25 <- as.numeric(aqxdata$PM25)
-aqxdata$Lon <- as.numeric(aqxdata$Lon)
-aqxdata$Lat <- as.numeric(aqxdata$Lat)
 ```
 
 
 ## Dealing missing values
 
 ```r
-aqxdata$PM25[is.na(aqxdata$PM25)] <- 0
-aqxdata <- aqxdata[!is.na(aqxdata$PM25), ]
 ```
 
 
@@ -222,31 +217,16 @@ aqxdata <- aqxdata[!is.na(aqxdata$PM25), ]
 
 ```r
 assignColor <- function(index){
-  if(index <= 15.4){return("#00FF00")}
-  else if(index >= 15.5 && index <= 35.4){return("#FFFF00")}
-  else if(index >= 35.5 && index <= 54.4){return("#FF8000")}
-  else if(index >= 54.5 && index <= 150.4){return("#FF0000")}
-  else if(index >= 150.5 && index <= 250.4){return("#7401DF")}
-  else {return("#8A0808")}
+
 }
+
 aqxdata$color <- sapply(aqxdata$PM25, assignColor)
 ```
 
 
-# Plot by ggmap
+## Plot by ggmap
 
 ```r
-# Plot data on map with color
-ggmap(get_googlemap(center=c(120.9248395,23.6151486),zoom=8,maptype='terrain')) +
-  geom_point(data = aqxdata, aes(Lon, Lat), colour = aqxdata$color, alpha=0.8)
-```
-
-```
-## Map from URL : http://maps.googleapis.com/maps/api/staticmap?center=23.615149,120.92484&zoom=8&size=640x640&scale=2&maptype=terrain&sensor=false
-```
-
-```
-## Warning: Removed 4 rows containing missing values (geom_point).
 ```
 
 ![](figs/fig_plot_tw_AQI-1.png)<!-- -->
