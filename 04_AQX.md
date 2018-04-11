@@ -1,11 +1,8 @@
----
-title: "04_AQX"
-output: 
-  html_document:
-    keep_md: true
----
-
-
+# Plotting Air-Quality Index Map
+* Similar to the ubike map case, try to collect air quality data and its geolocation, then plot each site on google map with color according to their air quality or PM2.5 level.
+* The main missions include
+  * cleaning and converting data
+  * designing a function to generate colors according to different ranges
 
 
 
