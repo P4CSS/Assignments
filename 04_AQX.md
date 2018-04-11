@@ -14,30 +14,6 @@ library(httr)
 library(ggplot2)
 library(ggmap)
 library(dplyr)
-```
-
-```
-## Warning: package 'dplyr' was built under R version 3.4.2
-```
-
-```
-## 
-## Attaching package: 'dplyr'
-```
-
-```
-## The following objects are masked from 'package:stats':
-## 
-##     filter, lag
-```
-
-```
-## The following objects are masked from 'package:base':
-## 
-##     intersect, setdiff, setequal, union
-```
-
-```r
 library(jsonlite)
 options(stringsAsFactors = F)
 ```
@@ -48,14 +24,6 @@ options(stringsAsFactors = F)
 ```r
 siteurl <- "https://taqm.epa.gov.tw/taqm/aqs.ashx?lang=tw&act=aqi"
 res <- fromJSON(content(GET(siteurl),"text"))
-```
-
-```
-## Warning in strptime(x, fmt, tz = "GMT"): unknown timezone 'zone/tz/2018c.
-## 1.0/zoneinfo/Asia/Taipei'
-```
-
-```r
 loc.df <- res$Data
 loc.df %>% head()
 ```
@@ -86,10 +54,8 @@ loc.df %>% head()
 
 
 
-
+# Read Air Quality data
 ```r
-# Read Air Quality data ---------------------------------------------------
-
 dataurl <- "https://taqm.epa.gov.tw/taqm/aqs.ashx?lang=tw&act=aqi-epa"
 res <- fromJSON(content(GET(dataurl),"text"))
 data.df <- res$Data
@@ -198,12 +164,14 @@ aqxdata %>% names()
 ## Convert character variables to numeric variables
 
 ```r
+# Add your code here
 ```
 
 
 ## Dealing missing values
 
 ```r
+# Add your code here
 ```
 
 
@@ -214,7 +182,7 @@ aqxdata %>% names()
 
 ```r
 assignColor <- function(index){
-
+ # Add your code here
 }
 
 aqxdata$color <- sapply(aqxdata$PM25, assignColor)
@@ -224,6 +192,7 @@ aqxdata$color <- sapply(aqxdata$PM25, assignColor)
 ## Plot by ggmap
 
 ```r
+# Add your code here
 ```
 
 ![](figs/fig_plot_tw_AQI-1.png)<!-- -->
