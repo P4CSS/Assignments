@@ -1,4 +1,4 @@
-# Crawler design 1
+# HTML Crawler design 1
 
 ## Missions
 * Designing a full crawler to crawl following sites and obtaining at least 100 records. 
