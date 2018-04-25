@@ -13,6 +13,6 @@
   * https://forum.babyhome.com.tw/list/parenting
   * https://ck101.com/forum-3586-1.html?ref=nav
   * http://spiderbites.nytimes.com/
-  * Weibo頻道 or WeChat公眾號 （需要處理登入訊息）
+  * Weibo頻道 or WeChat公眾號 （需要處理登入訊息）
   * 如果你有其他感興趣的網站的話請列出並說明（原始資料量必須大於一萬筆，但你只需要撈100筆）。
   
