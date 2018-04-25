@@ -11,7 +11,6 @@
 
 ## Sites
   * https://forum.babyhome.com.tw/list/parenting
-  * https://ck101.com/forum-3586-1.html?ref=nav
-  * 
-  * 如果你有其他感興趣的網站的話請說明。
+  * https://ck101.com/forum-3586-1.html?ref=nav
+  * 如果你有其他感興趣的網站的話請列出並說明。
   
