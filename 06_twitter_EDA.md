@@ -8,4 +8,4 @@
 
 ## Part 2
 * Doing exploratory data analysis by ggplot and dplyr pipeline syntax to show some descriptive evidences. Please provide at least three charts. 
-* You can create new categorical variables by `mutate(new_var = ifelse(conditionA, "A", "B")) then treat it as a type to fill or plot them separatedly.
+* You can create new categorical variables by `mutate(new_var = ifelse(conditionA, "A", "B"))` then treat it as a type to fill or plot them separatedly.
