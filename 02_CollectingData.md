@@ -11,7 +11,7 @@
 6. 利用save(df1, df2, df3, file = "r1234567.rda")將之儲存為rda檔。
 
 ## 步驟（Part II Paid Maternal Leave）
-* 到NTU COOL觀看Paid Maternal leave的影片（將於3/5開放），並跟著操作與練習，把操作的結果打在r1234567.rmd中。
+* 到NTU COOL觀看Paid Maternal leave的影片（將於3/5開放），並跟著操作與練習，把操作的結果一併打在r1234567.rmd中。
 
 ## 上傳
 1. 把r1234567.rda檔上傳到https://drive.google.com/drive/folders/1u8OFb71LixRZMQjm4Zy7QqzafxT-rL-y?usp=sharing
