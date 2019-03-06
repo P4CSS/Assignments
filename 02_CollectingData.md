@@ -10,12 +10,12 @@
 5. 利用函式檢測你的資料的資料型態。
 6. 利用save(df1, df2, df3, file = "r1234567.rda")將之儲存為rda檔。
 
-## 步驟（Part II Paid Maternal Leave）
-* 到NTU COOL觀看Paid Maternal leave的影片（將於3/5開放），並跟著操作與練習，把操作的結果一併打在r1234567.rmd中。
+## Part II Paid Maternal Leave
+* 課前先到Youtube上觀看Paid Maternal leave的說明https://youtu.be/dZE2xsqYQqY。 上課時比較容易裡解操作的內容。
 
 ## 上傳
 1. 把r1234567.rda檔上傳到https://drive.google.com/drive/folders/1u8OFb71LixRZMQjm4Zy7QqzafxT-rL-y?usp=sharing
-2. 把r1234567.rmd檔上傳到Ceiba的作業二。
+2. 把r1234567.rmd檔和r1234567.nb.html或r1234567.html上傳到Ceiba的作業二，如果不知道怎麼產製.html檔的同學，可以觀看這支影片https://youtu.be/xVXUZShYfEI
 
 ## 問題
 * 有程式技術問題可轉聯絡助教廖冠豪。
