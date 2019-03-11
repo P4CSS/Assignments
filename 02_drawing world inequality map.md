@@ -1,5 +1,5 @@
 # Description
-1. 在World Inequality Data中有記錄每個國家的income，但在其資料表中只有國名和income，在meta table中有country code。請嘗試用rworldmap繪製income map。
+在World Inequality Data中有記錄每個國家的income，但在其資料表中只有國名和income，在meta table中有country code。請嘗試用rworldmap繪製income map。成果約略如下，如果顏色不同沒關係。但請注意哪些國家應該比較高。
 
 # Hints
 1. 你可以在此下載income data
@@ -9,7 +9,7 @@
 2. rworldmap也可以用iso2繪製世界地圖
 `myMap <- joinCountryData2Map(ndata, joinCode = "ISO2", nameJoinColumn = "iso2")`
 
-3. 用google sheet join metadata和data後另存為CSV以讀取。
+3. 用google sheet join metadata和data後另存為CSV以讀取。如果你自己能用R處理，那你可以用R處理看看。
 
 4. 先把data與metadata兩個資料表最前面不屬於資料的header部分手動刪除
 
