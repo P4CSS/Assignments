@@ -15,3 +15,4 @@
 
 5. 使用`?mapCountryData`查詢如何繪製數值（連續變項）的顏色。
 
+![](figs/incomemap.png)
